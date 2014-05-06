@@ -1,4 +1,4 @@
-verview
+Overview
 These are all based on Python 2.7.2.  Feel free to use any import, third party libraries or backports that will help you solve the problem.
 Z Dee VCR
 
@@ -205,9 +205,8 @@ Input
         4 True
         5 False
 
-        
-        Problem 14
-        Write a procedure that returns True or False to verify whether a string represents a valid rational number limited to decimal representation.  
+ Problem 14
+Write a procedure that returns True or False to verify whether a string represents a valid rational number limited to decimal representation.  
 
         Example
         3.14 True
@@ -218,19 +217,15 @@ Input
 
 
 
-        
+Problem 15
+Given a list of integers, write a procedure to print each number to stdout, starting at index 0, until you encounter the first odd number.  Do this without referencing the list directly in a for loop.  e.g.
 
-        Problem 15
-        Given a list of integers, write a procedure to print each number to stdout, starting at index 0, until you encounter the first odd number.  Do this without referencing the list directly in a for loop.  e.g.
-            for i in my_list:
-                    if it is even print_it
-                            else stop
+        for i in my_list:
+                if it is even print_it
+                 else stop
 
-                            Input
-                            [2,4,8,10,12,14,16,18,19,20,22,24]
-
-
-                            
+       Input
+        [2,4,8,10,12,14,16,18,19,20,22,24]
 
 
 
