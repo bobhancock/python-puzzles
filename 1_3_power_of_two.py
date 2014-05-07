@@ -17,6 +17,9 @@ def power2(x):
    s = bin(x)[2:]  # binary repr as a string
    return s[0] == "1" and s[1:] == "0"*len(s[1:])
    
+
+def is_pow_of_2(n):
+    return n & (n - 1)  == 0
    
 i = 1
 for line in open("data/1_3.data"):
