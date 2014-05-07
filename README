@@ -19,10 +19,9 @@ integer, integer, list of strings, tuple of strings, float
 The file names are level_problemnumber.data.  The file for the the first problem in level 1 is 1_1.data.
 
 Level 1
+------------
 Problem 1
 Write a procedure to determine if the members in a record are distinct/unique.  Read each record in the file and print the record number and True or False to standard out.
-Input
-https://www.dropbox.com/sh/fovxy9sumq4v4ri/kgax6zkZeu/1_1.data
 
 Example
 Input
@@ -45,7 +44,6 @@ Given a sequence of stock prices in a record,  pick the best best time to buy an
 Input
 The first line of input gives the number of stocks you can use, N. For each stock, the record consists of a series of numbers representing prices throughout the day.  Note, that the number of price quotes per stock can vary.
 
-https://www.dropbox.com/sh/fovxy9sumq4v4ri/A4FJpJGNER/1_2.data
 Output
 For each stock output: buy_price sell_price profit separated by spaces on a separate line.
 The last last output line: TOTAL PROFIT = total_profit
@@ -67,8 +65,6 @@ TOTAL PROFIT: 14.3
 Problem 3
 Create a procedure that returns True or False telling you whether a value is a power of 2.
 
-Input
-https://www.dropbox.com/sh/fovxy9sumq4v4ri/h7LsxU5sqw/1_3.data
 Example
 Input 
 64
@@ -83,12 +79,12 @@ Solution Output
 3 False
 4 True
 5 False
-
+
 Problem 4
 Rotate the string “abcdefghi” four characters to the left.
 Solution Output
 efghiabcd
-
+
 Problem 5
 Write a procedure to print to stdout a listing of all the operations, including double underscore operations, that can be used with a list but not a tuple.  For example, pop can be used with a list but not with a tuple.
 
@@ -100,8 +96,6 @@ If the input were 21, the output would be 7.
 Problem 7
 Write a procedure that returns True or False that tells you if a record begins with the name of the day of the week.  Do this without using if:else.
 
-Input 
-https://www.dropbox.com/sh/fovxy9sumq4v4ri/4B92mWrCY5/1_7.data
 Example
 Input
 I hate Mondays.
@@ -116,10 +110,6 @@ Solution Output
 4 True
 5 False
 
-
-
-
-Problem 8
 Given an integer, find the next largest integer that uses the same digits.
 
 Example
@@ -127,8 +117,6 @@ Example
 If the number is 15432, you should return 21345.
 
 
-
-
 Problem 9
 In a sequence, insert a sub-sequence.  Given the input below, insert the numbers between 20 and 40 so that it looks like the output.  Do this without using iteration
 
@@ -154,12 +142,8 @@ Input
  alert alter later
 
 
- 
  Problem 11
  Write a procedure to reverse the words in each record; do this is one line of code.  Print the results to stdout separated by spaces.
-
- Input
- https://www.dropbox.com/sh/fovxy9sumq4v4ri/Dc16zF-SKO/1_11.data
 
  Example
  Input
@@ -169,19 +153,13 @@ Input
  Joachim Guido Igor Peter Bob
 
 
- 
-
- Problem 12
  From a file of unsorted integers, retrieve the three smallest integers without using sort().
-
- Input
- https://www.dropbox.com/sh/fovxy9sumq4v4ri/WYvnwIZhi0/1_13.data
 
  Output
  Three smallest integers.
 
  Solution Output
- 100 101 103
+ 100 101 103
  Problem 13
  Write a procedure that returns True or False that tells you if the last word of text in a record is a member of tuple of words.  For this problem used days of the week as the end words.  Do this without using if:else.
 
@@ -213,7 +191,6 @@ Write a procedure that returns True or False to verify whether a string represen
         ⅛ False
         two False
         3.5E9 True
-
 
 
 
